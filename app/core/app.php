@@ -24,11 +24,13 @@ class App {
                 unset($url[1]);
             }
         }
-        show($url);
+        //runna la classe e il metodo
+        $this->params = array_values($url);
+        call_user_func_array([$this->controller, $this->method], $this->params);
     }
     private function splitURL() {
         // Split the URL into parts
-        $url=isset($_GET['url']) ? $_GET['url'] :"home";
+        $url = isset($_GET['url']) ? $_GET['url'] :"home";
         return explode("/", filter_var(trim($url, "/"),FILTER_SANITIZE_URL));
         
     }
