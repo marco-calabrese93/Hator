@@ -3,7 +3,8 @@ class Home extends Controller {
     function index() {
         // This method will be called when the home page is accessed
        
-        $this->view("home");
+       $data['page_title'] ="Home";
+        $this->view("home",$data);
     }
 
    

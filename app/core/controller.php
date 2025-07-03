@@ -1,7 +1,7 @@
 <?php
 
  class Controller {
-    protected function view($view){
+    protected function view($view,$data = []){
         // This method will be called when a specific view is accessed
         // For example, if the URL is /home/view/about, this method will be called with 'about' as the parameter
          if(file_exists("../app/views/" . $view . ".php")){
