@@ -4,7 +4,7 @@ class Home extends Controller {
         // This method will be called when the home page is accessed
        
        $data['page_title'] ="Home";
-        $this->view("home",$data);
+        $this->view("hator/index",$data);
     }
 
    
