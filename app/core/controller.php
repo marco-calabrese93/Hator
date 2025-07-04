@@ -7,7 +7,7 @@
          if(file_exists("../app/views/" . $view . ".php")){
            include "../app/views/" . $view . ".php";
          }else{
-                include __DIR__ . "/../app/views/404.php";
+                include "../app/views/404.php";
          }
 
     }

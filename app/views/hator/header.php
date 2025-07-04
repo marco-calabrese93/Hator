@@ -210,80 +210,10 @@
 <!-- HOME LINK-->                     <a  href="home">home</a>                                    
                                         </li>
                                         <li>
-<!--ELEMENTS LINK-->                      <a href="about">about us</a>
+<!--ABOUT US LINK-->                      <a href="about">about us</a>
                                         </li>
                                         <li>
-                                            <a class="link" href="about">Beauty</a>
-                                            <!--  Mega-Menu Start -->
-                                            <ul class="ht-dropdown megamenu megamenu-three ">
-                                                <!-- Single Column Start -->
-                                                <li>
-                                                    <ul>
-                                                        <li class="menu-title">portfolio</li>
-                                                        <li>
-                                                            <a href="shop.html">Fusions & Fashions</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Style Statements</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Bangs and Fringes</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Expert Musings</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Style D Dress</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <!-- Single Column End -->
-                                                <!-- Single Column Start -->
-                                                <li>
-                                                    <ul>
-                                                        <li class="menu-title">popover</li>
-                                                        <li>
-                                                            <a href="shop.html">Platform Beds</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Storage Beds</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Regular Beds</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Sleigh Beds</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Laundry</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <!-- Single Column End -->
-                                                <!-- Single Column Start -->
-                                                <li>
-                                                    <ul>
-                                                        <li class="menu-title">promotion</li>
-                                                        <li>
-                                                            <a href="shop.html">Document</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Dropcap</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Dummy Image</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Dummy Text</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Fancy Text</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <!-- Single Column End -->
-                                            </ul>
-                                            <!-- Mega-Menu End -->
+<!--CONTACT US LINK-->                        <a class="link" href="contact">Contact Us</a>                                         
                                         </li>
                                         <li>
                                             <a class="drop-icon" href="shop.html">shop</a>
