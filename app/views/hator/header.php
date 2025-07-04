@@ -80,10 +80,10 @@
                             <div class="col-auto header-top-left order-2 order-lg-1">
                                 <ul>
                                     <li>
-                                         <a href="tel:0123456789"><i class="fa fa-phone"></i>0123456789</a>
+                                         <a href="tel:0123456789"><i class="fa fa-phone"></i>08624311</a>
                                     </li>
                                     <li>
-                                         <a href="mailto:demo@example.com"><i class="fa fa-envelope-open-o"></i> demo@example.com</a>
+                                         <a href="mailto:hatorparfumes@gmail.com"><i class="fa fa-envelope-open-o"></i> hatorparfumes@gmail.com</a>
                                     </li>
                                     <li>
                                         <ul class="social-icon">
@@ -126,7 +126,7 @@
                             <div class="col-auto header-top-right order-1 order-lg-2">
                                 <ul>
                                     <li>
-                                        <a href="#">USD $
+                                        <a href="#">EUR €
                                             <i class="fa fa-angle-down"></i>
                                         </a>
                                         <!-- Dropdown Start -->
@@ -142,7 +142,7 @@
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="<?=ASSETS?>hator/img/header/1.webp" alt="language-selector">English
+                                            <img src="<?=ASSETS?>hator/img/header/2.png" alt="language-selector">Italiano
                                             <i class="fa fa-angle-down"></i>
                                         </a>
                                         <!-- Dropdown Start -->
@@ -153,7 +153,7 @@
                                             </li>
                                             <li>
                                                 <a href="#">
-                                                    <img src="<?=ASSETS?>hator/img/header/2.webp" alt="language-selector">Francis</a>
+                                                    <img src="<?=ASSETS?>hator/img/header/2.png" alt="language-selector">Italiano</a>
                                             </li>
                                         </ul>
                                         <!-- Dropdown End -->
@@ -207,341 +207,13 @@
                                 <nav>
                                     <ul class="header-bottom-list d-flex justify-content-start">
                                         <li class="active position-static">
-                                            <a  href="index-cosmetic.html">home</a>
-                                            <!-- Home Version Dropdown Start -->
-                                            <ul class="ht-dropdown megamenu megamenu-three w-100">
-                                                <!-- Single Column Start -->
-                                                <li>
-                                                    <ul>
-                                                        <li class="menu-title">Demo Group 01</li>
-                                                        <li>
-                                                            <a href="index-cosmetic.html">Home - Cosmetic</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-cosmetic-2.html">Home - Cosmetic 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-cosmetic-3.html">Home - Cosmetic 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-cosmetic-4.html">Home - Cosmetic 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-cosmetic-5.html">Home - Cosmetic 5</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-cosmetic-6.html">Home - Cosmetic 6</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-furniture.html">Home - Furniture</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-furniture-2.html">Home - Furniture 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-furniture-3.html">Home - Furniture 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-furniture-4.html">Home - Furniture 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-jewelry.html">Home - Jewelry</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-jewelry-2.html">Home - Jewelry 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-jewelry-3.html">Home - Jewelry 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-jewelry-4.html">Home - Jewelry 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-organic.html">Home - Organic</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <!-- Single Column End -->
-                                                <!-- Single Column Start -->
-                                                <li>
-                                                    <ul>
-                                                        <li class="menu-title">Demo Group 02</li>
-                                                        <li>
-                                                            <a href="index-organic-2.html">Home - Organic 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-organic-3.html">Home - Organic 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-plant.html">Home - Plant</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-plant-2.html">Home - Plant 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-autopart.html">Home - Autopart</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-autopart-2.html">Home - Autopart 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-digital.html">Home - Digital</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-digital-2.html">Home - Digital 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-digital-3.html">Home - Digital 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-digital-4.html">Home - Digital 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-food.html">Home - Food</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-food-2.html">Home - Food 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-food-3.html">Home - Food 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-food-4.html">Home - Food 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-handmade.html">Home - Handmade</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <!-- Single Column End -->
-                                                <!-- Single Column Start -->
-                                                <li>
-                                                    <ul>
-                                                        <li class="menu-title">Demo Group 03</li>
-                                                        <li>
-                                                            <a href="index-handmade-2.html">Home - Handmade 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-handmade-3.html">Home - Handmade 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-handmade-4.html">Home - Handmade 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-fashion.html">Home - Fashion</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-fashion-2.html">Home - Fashion 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-fashion-3.html">Home - Fashion 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-fashion-4.html">Home - Fashion 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-pet.html">Home - Pet</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-pet-2.html">Home - Pet 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-pet-3.html">Home - Pet 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-pet-4.html">Home - Pet 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-toy.html">Home - Toy</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-toy-2.html">Home - Toy 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-toy-3.html">Home - Toy 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-toy-4.html">Home - Toy 4</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <!-- Single Column End -->
-                                                <!-- Single Column Start -->
-                                                <li>
-                                                    <ul>
-                                                        <li class="menu-title">Demo Group 04</li>
-                                                        <li>
-                                                            <a href="index-book.html">Home - Book</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-book-2.html">Home - Book 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-book-3.html">Home - Book 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-book-4.html">Home - Book 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-kitchenware.html">Home - Kitchenware</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-kitchenware-2.html">Home - Kitchenware 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-kitchenware-3.html">Home - Kitchenware 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-kitchenware-4.html">Home - Kitchenware 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-sportwear.html">Home - Sportwear</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-sportwear-2.html">Home - Sportwear 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-sportwear-3.html">Home - Sportwear 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-sportwear-4.html">Home - Sportwear 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-supermarket.html">Home - Supermarket</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-supermarket-2.html">Home - Supermarket 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-supermarket-3.html">Home - Supermarket 3</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <!-- Single Column End -->
-                                                <!-- Single Column Start -->
-                                                <li>
-                                                    <ul>
-                                                        <li class="menu-title">Demo Group 05</li>
-                                                        <li>
-                                                            <a href="index-supermarket-4.html">Home - Supermarket 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-flower.html">Home - Flower</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-flower-2.html">Home - Flower 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-flower-3.html">Home - Flower 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-flower-4.html">Home - Flower 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-bicycle.html">Home - Bicycle</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-bicycle-2.html">Home - Bicycle 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-bicycle-3.html">Home - Bicycle 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-bicycle-4.html">Home - Bicycle 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-barber.html">Home - Barber</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-barber-2.html">Home - Barber 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-barber-3.html">Home - Barber 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-barber-4.html">Home - Barber 4</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <!-- Single Column End -->
-                                            </ul>
-                                            <!-- Home Version Dropdown End -->
+<!-- HOME LINK-->                     <a  href="home">home</a>                                    
                                         </li>
                                         <li>
-                                            <a class="drop-icon" href="shop.html">elements</a>
-                                            <!--  Mega-Menu Start -->
-                                            <ul class="ht-dropdown megamenu megamenu-three ">
-                                                <!-- Single Column Start -->
-                                                <li>
-                                                    <ul>
-                                                        <li class="menu-title">Earrings</li>
-                                                        <li>
-                                                            <a href="shop.html">Document</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Dropcap</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Dummy Image</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Dummy Text</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Fancy Text</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <!-- Single Column End -->
-                                                <!-- Single Column Start -->
-                                                <li>
-                                                    <ul>
-                                                        <li class="menu-title">Necklaces</li>
-                                                        <li>
-                                                            <a href="shop.html">Flickr</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Flip Box</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Frame</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Gallery</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Cocktail</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <!-- Single Column End -->
-                                                <!-- Single Column Start -->
-                                                <li>
-                                                    <ul>
-                                                        <li class="menu-title">Bracelets</li>
-                                                        <li>
-                                                            <a href="shop.html">Platform Beds</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Storage Beds</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Regular Beds</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Sleigh Beds</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">Laundry</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <!-- Single Column End -->
-                                            </ul>
-                                            <!-- Mega-Menu End -->
+<!--ELEMENTS LINK-->                      <a href="about">about us</a>
                                         </li>
                                         <li>
-                                            <a class="drop-icon" href="shop.html">Beauty</a>
+                                            <a class="link" href="about">Beauty</a>
                                             <!--  Mega-Menu Start -->
                                             <ul class="ht-dropdown megamenu megamenu-three ">
                                                 <!-- Single Column Start -->
