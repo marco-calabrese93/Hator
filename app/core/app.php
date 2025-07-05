@@ -14,6 +14,10 @@ class App {
             // If the controller file exists, set the controller
             $this->controller = strtolower($url[0]);
             unset($url[0]);
+        }else{
+            // If the controller file does not exist, show a 404 error
+            require "../app/views/404.php";
+            die();
         }
         require "../app/controllers/".$this->controller.".php";
         $this->controller = new $this->controller;

@@ -1,4 +1,7 @@
-<?php $this->view("hator/header",$data);?>
+<?php require "../app/views/hator/header.php"; ?>
+<!-- ci va il require perchè se finisci qui non c'è nessun this, perchè 
+ non stai usando il controller , ma sei nella classe App che non ha il metodo view, 
+ idem per il footer-->
 
         <!-- Breadcrumb Area Start Here -->
         <div class="breadcrumb-area">
@@ -39,4 +42,4 @@
             </div>
         </div>
         <!-- Error 404 Area End -->
-<?php $this->view("hator/footer",$data);?>
+<?php require "../app/views/hator/footer.php"; ?>
