@@ -24,7 +24,12 @@ class Database
             $check = $stm->execute($data);
         }
         if ($check) {
-            return $stm->fetchAll(PDO::FETCH_OBJ);
+            $data = $stm->fetchAll(PDO::FETCH_OBJ);
+            if (is_array($data) && count($data) > 0) {
+                return $data;
+            } else {
+                return false;
+            }
         } else {
             return false;
         }

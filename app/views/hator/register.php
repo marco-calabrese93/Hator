@@ -1,3 +1,4 @@
+<script src="<?=ASSETS?>/hator/js/form-validation.js"></script>
 <?php $this->view("hator/header",$data);?>
         <!-- Breadcrumb Area Start Here -->
         <div class="breadcrumb-area">
@@ -9,8 +10,9 @@
             </div>
         </div>
         <!-- Breadcrumb Area End Here -->
-        <!-- Regester Page Start Here -->
+        <!-- Register Page Start Here -->
         <div class="register-area ptb-90">
+            <?php check_message(); ?>
             <div class="container">
                 <h3 class="login-header">Create an account </h3>
                 <div class="row">
@@ -22,35 +24,42 @@
                                     <label class="col-lg-3 col-md-3 col-form-label">Social title</label>
                                     <div class="col-lg-6 col-md-6">
                                         <span class="custom-radio">
-                                            <input type="radio" name="user_title" value="Mr."> Mr.
+                                            <input type="radio" name="user_title" value="Mr." <?= (!empty($_POST) && isset($_POST['user_title']) && $_POST['user_title'] == 'Mr.') ? 'checked' : '' ?>> Mr.
                                         </span>
                                         <span class="custom-radio">
-                                            <input type="radio" name="user_title" value="Mrs."> Mrs.
+                                            <input type="radio" name="user_title" value="Mrs." <?= (!empty($_POST) && isset($_POST['user_title']) && $_POST['user_title'] == 'Mrs.') ? 'checked' : '' ?>> Mrs.
                                         </span>
+                                        <?php if (!empty($_POST) && empty($_POST['user_title'])): ?>
+                                          <div class="text-danger">Seleziona un titolo</div>
+                                        <?php endif; ?>
                                     </div>
                                 </div>
                                 <div class="form-group row mb-20">
                                     <label for="f-name" class="col-lg-3 col-md-3 col-form-label">First Name</label>
                                     <div class="col-lg-6 col-md-6">
-                                        <input type="text" class="form-control" name="user_first_name" id="f-name">
+                                        <input type="text" class="form-control <?= (!empty($_POST) && empty($_POST['user_first_name'])) ? 'is-invalid' : '' ?>" name="user_first_name" id="f-name" value="<?= htmlspecialchars($_POST['user_first_name'] ?? '') ?>">
+                                        <div class="invalid-feedback">Campo obbligatorio</div>
                                     </div>
                                 </div>
                                 <div class="form-group row mb-20">
                                     <label for="l-name" class="col-lg-3 col-md-3 col-form-label">Last Name</label>
                                     <div class="col-lg-6 col-md-6">
-                                        <input type="text" class="form-control" name="user_last_name" id="l-name">
+                                        <input type="text" class="form-control <?= (!empty($_POST) && empty($_POST['user_last_name'])) ? 'is-invalid' : '' ?>" name="user_last_name" id="l-name" value="<?= htmlspecialchars($_POST['user_last_name'] ?? '') ?>">
+                                        <div class="invalid-feedback">Campo obbligatorio</div>
                                     </div>
                                 </div>
                                 <div class="form-group row mb-20">
                                     <label for="email" class="col-lg-3 col-md-3 col-form-label">Email</label>
                                     <div class="col-lg-6 col-md-6">
-                                        <input type="text" class="form-control" name="email" id="email">
+                                        <input type="text" class="form-control <?= (!empty($_POST) && empty($_POST['email'])) ? 'is-invalid' : '' ?>" name="email" id="email" value="<?= htmlspecialchars($_POST['email'] ?? '') ?>">
+                                        <div class="invalid-feedback">Campo obbligatorio</div>
                                     </div>
                                 </div>
                                 <div class="form-group row mb-20">
                                     <label for="inputPassword" class="col-lg-3 col-md-3 col-form-label">Password</label>
                                     <div class="position-relative col-lg-6 col-md-6">
-                                        <input type="password" class="form-control" name="password" id="inputPassword">
+                                        <input type="password" class="form-control <?= (!empty($_POST) && empty($_POST['password'])) ? 'is-invalid' : '' ?>" name="password" id="inputPassword" value="<?= htmlspecialchars($_POST['password'] ?? '') ?>">
+                                        <div class="invalid-feedback">Campo obbligatorio</div>
                                         <button class="btn show-btn" type="button" data-target="inputPassword">Show</button>
                                     </div>
                                 </div>

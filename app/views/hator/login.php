@@ -1,4 +1,6 @@
+<script src="<?=ASSETS?>hator/js/form-validation.js"></script>
 <?php $this->view("hator/header",$data);?>
+
         <!-- Breadcrumb Area Start Here -->
         <div class="breadcrumb-area">
             <div class="container">
@@ -11,6 +13,7 @@
         <!-- Breadcrumb Area End Here -->
         <!-- Login Page Start Here -->
         <div class="login ptb-90">
+            <?php check_message(); ?>
             <div class="container">
                 <h3 class="login-header text-center">Log in to your account </h3>
                 <div class="row">
@@ -20,13 +23,15 @@
                                 <div class="form-group row mb-20">
                                     <label for="email" class="col-sm-3 col-form-label">Email</label>
                                     <div class="col-sm-7">
-                                        <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                                        <input type="email" class="form-control <?= (!empty($_POST) && empty($_POST['email'])) ? 'is-invalid' : '' ?>" id="email" name="email" placeholder="Email" value="<?= htmlspecialchars($_POST['email'] ?? '') ?>">
+                                        <div class="invalid-feedback">Campo obbligatorio</div>
                                     </div>
                                 </div>
                                 <div class="form-group row mb-20">
                                     <label for="inputPassword" class="col-sm-3 col-form-label">Password</label>
                                     <div class="col-sm-7 position-relative">
-                                        <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Password">
+                                        <input type="password" class="form-control <?= (!empty($_POST) && empty($_POST['password'])) ? 'is-invalid' : '' ?>" id="inputPassword" name="password" placeholder="Password">
+                                        <div class="invalid-feedback">Campo obbligatorio</div>
                                         <button class="btn show-btn" type="button" data-target="inputPassword">Show</button>
                                     </div>
                                 </div>
