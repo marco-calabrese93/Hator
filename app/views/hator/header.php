@@ -192,12 +192,30 @@
                                         <li>
 <!--SHOP LINK-->                         <a href="<?=ROOT?>shop">shop</a>
                                         </li>
+
+                                        <?php if(!isset($_SESSION['user_id'])): ?>
                                         <li>
 <!--LOG IN LINK-->                            <a href="<?=ROOT?>login">Log In</a>
                                         </li>
                                         <li>
 <!--REGISTER LINK-->                          <a href="<?=ROOT?>register">Register</a>
                                         </li>
+                                        <?php else: ?>
+                                            
+                                        <!--aggiungi qui tutto ciò che vuoi mostrare 
+                                        SOLO agli utenti loggati e aggiungi nelle
+                                        funzioni a cui puoi accedere solo se sei loggato
+                                        $user= $this->loadModel("User");
+                                        if(! $user->check_logged_in()) {
+                                            header("Location: " . ROOT . "login");
+                                            die;   MINUTO 230 
+                                        } -->
+                                        <li>
+<!--LOG OUT LINK-->                          <a href="<?=ROOT?>logout">Log Out</a>
+                                        </li>
+                                        <?php endif; ?>
+
+
                                     </ul>
                                 </nav>
                             </div>

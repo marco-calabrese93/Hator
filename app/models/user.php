@@ -93,4 +93,17 @@ class User {
        return false;
     }
 
+
+    function logout() {
+        // Logout logic here
+        unset($_SESSION['user_id']);
+        unset($_SESSION['user_first_name']);
+        unset($_SESSION['user_last_name']);
+        unset($_SESSION['user_url']);
+        unset($_SESSION['titolo']);
+        header("Location: " . ROOT . "login");
+        die;
+
+    }
+
 }
