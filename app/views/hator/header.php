@@ -85,39 +85,13 @@
                                     <li>
                                          <a href="mailto:hatorparfumes@gmail.com"><i class="fa fa-envelope-open-o"></i> hatorparfumes@gmail.com</a>
                                     </li>
-                                    <li>
-                                        <ul class="social-icon">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fa fa-rss" aria-hidden="true"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fa fa-youtube" aria-hidden="true"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
+                                    <li> <!-- bentornato-->
+                                       <?php if (isset($_SESSION['user_id'])): ?>
+                                        <p>
+                                            Bentornat<?= ($_SESSION['titolo'] === 'Mrs.') ? 'a' : 'o' ?>
+                                            <?= $_SESSION['user_first_name'] . " " . $_SESSION['user_last_name'] ?>
+                                        </p>
+                                        <?php endif; ?>     
                                     </li>
                                 </ul>
                             </div>
@@ -779,3 +753,7 @@
             <!-- Header Middle End Here -->
         </header>
         <!-- Main Header Area Three End Here -->
+
+        <!-- Show password js aggiunto da noi -->
+       <script src="<?=ASSETS?>hator/js/show-password.js"></script>
+</body>

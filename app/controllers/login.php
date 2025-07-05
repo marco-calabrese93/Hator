@@ -4,6 +4,18 @@ class Login extends Controller {
         // This method will be called when the login page is accessed
        
        $data['page_title'] ="Login";
+
+       if(isset($_POST['email'])) {
+            // If the form is submitted, process the login
+            $user = $this->loadModel("User");
+            $user->login($_POST);
+
+        } elseif(isset($_POST['user_first_name']) && (isset($_POST['user_last_name']) && (!isset($_POST['email'])))) {
+            // If the form is not submitted, just show the login page
+            $user = $this->loadModel("User");
+            $user->register($_POST);
+        }
+
         $this->view("hator/login",$data);
     }
 

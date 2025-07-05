@@ -16,18 +16,18 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-8 offset-xl-3 offset-lg-2">
                         <div class="login-form">
-                            <form>
+                            <form method="POST">
                                 <div class="form-group row mb-20">
                                     <label for="email" class="col-sm-3 col-form-label">Email</label>
                                     <div class="col-sm-7">
-                                        <input type="text" class="form-control" id="email" placeholder="Email">
+                                        <input type="text" class="form-control" id="email" name="email" placeholder="Email">
                                     </div>
                                 </div>
                                 <div class="form-group row mb-20">
                                     <label for="inputPassword" class="col-sm-3 col-form-label">Password</label>
                                     <div class="col-sm-7 position-relative">
-                                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-                                        <button class="btn show-btn" type="button">Show</button>
+                                        <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Password">
+                                        <button class="btn show-btn" type="button" data-target="inputPassword">Show</button>
                                     </div>
                                 </div>
                                 <div class="login-details text-center mb-25">
