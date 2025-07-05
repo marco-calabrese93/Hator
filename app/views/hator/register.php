@@ -4,7 +4,7 @@
         <div class="breadcrumb-area">
             <div class="container">
                 <ol class="breadcrumb breadcrumb-list">
-                    <li class="breadcrumb-item"><a href="index-cosmetic.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="<?=ROOT?>home">Home</a></li>
                     <li class="breadcrumb-item active">Register</li>
                 </ol>
             </div>
