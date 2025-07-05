@@ -42,9 +42,9 @@ class User {
 
         $user_url = generate_user_url(60);
 
-        if (isset($POST['email']) && isset($POST['password']) 
-            && isset($POST['user_first_name']) && isset($POST['user_last_name'])
-            && isset($POST['user_title'])) {
+        if (!empty($POST['email']) && !empty($POST['password']) 
+            && !empty($POST['user_first_name']) && !empty($POST['user_last_name'])
+            && !empty($POST['user_title'])) {
             $arr = [
                 'email' => $POST['email'],
                 'password' => $POST['password'],
