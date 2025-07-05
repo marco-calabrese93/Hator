@@ -44,7 +44,7 @@
 
     <!-- Main Wrapper Start Here -->
     <div class="wrapper">
-        <!-- Newsletter Popup Start -->
+        <!-- Newsletter Popup Start 
         <div class="popup_wrapper">
             <div class="test">
                 <span class="popup_off">Close</span>
@@ -66,7 +66,7 @@
                 </div>
             </div>
         </div>
-        <!-- Newsletter Popup End -->
+         Newsletter Popup End -->
         <!-- Main Header Area Start Here -->
 
         <!-- Main Header Area Three Start Here -->

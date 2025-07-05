@@ -63,6 +63,14 @@
                                         <button class="btn show-btn" type="button" data-target="inputPassword">Show</button>
                                     </div>
                                 </div>
+                                <div class="form-group row mb-20">
+                                    <label for="inputPassword" class="col-lg-3 col-md-3 col-form-label">Confirm Password</label>
+                                    <div class="position-relative col-lg-6 col-md-6">
+                                        <input type="password" class="form-control <?= (!empty($_POST) && empty($_POST['password_confirm'])) ? 'is-invalid' : '' ?>" name="password_confirm" id="confirmPassword" value="<?= htmlspecialchars($_POST['password_confirm'] ?? '') ?>">
+                                        <div class="invalid-feedback">Campo obbligatorio</div>
+                                        <button class="btn show-btn" type="button" data-target="confirmPassword">Show</button>
+                                    </div>
+                                </div>
 <!--  rimozione della data di nascita  <div class="form-group row mb-20 align-items-center">
                                     <label for="birth" class="col-lg-3 col-md-3 col-form-label">Birthdate</label>
                                     <div class="col-lg-6 col-md-6">

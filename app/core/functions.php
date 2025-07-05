@@ -49,3 +49,12 @@ function show($stuff) {
             unset($_SESSION['error']);
         }
     }
+
+    //funzione per validare le due password inserite in fase di registrazione
+function validate_password_strength($password) {
+    return preg_match('/[A-Z]/', $password) && preg_match('/[\W]/', $password);
+}
+
+function validate_password_match($p1, $p2) {
+    return $p1 === $p2;
+}

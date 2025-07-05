@@ -45,6 +45,19 @@ class User {
         if (!empty($POST['email']) && !empty($POST['password']) 
             && !empty($POST['user_first_name']) && !empty($POST['user_last_name'])
             && !empty($POST['user_title'])) {
+
+            // controllo se le password corrispondono
+            if ($POST['password'] !== $POST['password_confirm']) {
+                $_SESSION['error'] = "The two passwords do not match.";
+                return;
+            }
+
+            // controllo se la password è sufficientemente forte
+            if (!preg_match('/[A-Z]/', $POST['password']) || !preg_match('/[\W]/', $POST['password'])) {
+                $_SESSION['error'] = "The password must contain at least one uppercase letter and one special character.";
+                return;
+            }
+
             $arr = [
                 'email' => $POST['email'],
                 'password' => $POST['password'],
@@ -53,6 +66,14 @@ class User {
                 'titolo' => isset($POST['user_title']) ? $POST['user_title'] : null,
                 'user_url' => $user_url
             ];
+
+            //controllo se l'email è già presente nel db
+            $query = "SELECT * FROM users WHERE email = :email LIMIT 1";
+            $data = $DB->read($query, ['email' => $POST['email']]);
+            if (is_array($data) && count($data) > 0) {
+                $_SESSION['error'] = "Email already exists";
+                return;
+            }
 
             $query = "INSERT INTO users (email, password, first_name, last_name, titolo, user_url) 
                       VALUES (:email, :password, :first_name, :last_name, :titolo, :user_url)";
