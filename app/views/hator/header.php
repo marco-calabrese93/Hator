@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Makali || Home - Cosmetic 03</title>
+    <title>Hator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicons -->
     <link rel="shortcut icon" href="<?=ASSETS?>hator/img/favicon.ico">
@@ -216,64 +216,13 @@
 <!--CONTACT US LINK-->                        <a class="link" href="contact">Contact Us</a>                                         
                                         </li>
                                         <li>
-                                            <a class="drop-icon" href="shop.html">shop</a>
-                                            <!-- Home Version Dropdown Start -->
-                                            <ul class="ht-dropdown">
-                                                <li>
-                                                    <a href="shop.html">Shop</a>
-                                                </li>
-                                                <li>
-                                                    <a href="product-details.html">product details</a>
-                                                </li>
-                                                <li>
-                                                    <a href="compare.html">compare</a>
-                                                </li>
-                                                <li>
-                                                    <a href="cart.html">cart</a>
-                                                </li>
-                                                <li>
-                                                    <a href="checkout.html">checkout</a>
-                                                </li>
-                                                <li>
-                                                    <a href="wishlist.html">wishlist</a>
-                                                </li>
-                                            </ul>
-                                            <!-- Home Version Dropdown End -->
+<!--SHOP LINK-->                         <a href="shop">shop</a>
                                         </li>
                                         <li>
-                                            <a class="drop-icon" href="blog.html">blog</a>
-                                            <!-- Home Version Dropdown Start -->
-                                            <ul class="ht-dropdown blog-dropdown">
-                                                <li>
-                                                    <a href="blog-details.html">Blog Details</a>
-                                                </li>
-                                            </ul>
-                                            <!-- Home Version Dropdown End -->
+<!--LOG IN LINK-->                            <a href="login">Log In</a>
                                         </li>
                                         <li>
-                                            <a class="drop-icon" href="#">pages</a>
-                                            <!-- Home Version Dropdown Start -->
-                                            <ul class="ht-dropdown">
-                                                <li>
-                                                    <a href="contact.html">contact us</a>
-                                                </li>
-                                                <li>
-                                                    <a href="about.html">about us</a>
-                                                </li>
-                                                <li>
-                                                    <a href="register.html">register</a>
-                                                </li>
-                                                <li>
-                                                    <a href="login.html">Login</a>
-                                                </li>
-                                                <li>
-                                                    <a href="404.html">404</a>
-                                                </li>
-                                                <li>
-                                                    <a href="forgot-password.html">forgot password</a>
-                                                </li>
-                                            </ul>
-                                            <!-- Home Version Dropdown End -->
+<!--REGISTER LINK-->                          <a href="register">Register</a>
                                         </li>
                                     </ul>
                                 </nav>
