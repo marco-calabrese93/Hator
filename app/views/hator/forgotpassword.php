@@ -28,7 +28,7 @@
                     </fieldset>
                     <div class="buttons newsletter-input">
                         <div class="float-start float-sm-start">
-                            <a class="customer-btn mr-20" href="login">Back</a>
+                            <a class="customer-btn mr-20" href="<?=ROOT?>login">Back</a>
                         </div>
                         <div class="float-end float-sm-end">
                             <input type="submit" value="Continue" class="return-customer-btn">

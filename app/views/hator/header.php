@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Hator</title>
+    <title><?=$data['page_title'] . " | " . WEBSITE_NAME?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicons -->
     <link rel="shortcut icon" href="<?=ASSETS?>hator/img/favicon.ico">
@@ -207,22 +207,22 @@
                                 <nav>
                                     <ul class="header-bottom-list d-flex justify-content-start">
                                         <li class="active position-static">
-<!-- HOME LINK-->                     <a  href="home">home</a>                                    
+<!-- HOME LINK-->                     <a  href="<?=ROOT?>home">home</a>                                    
                                         </li>
                                         <li>
-<!--ABOUT US LINK-->                      <a href="about">about us</a>
+<!--ABOUT US LINK-->                      <a href="<?=ROOT?>about">about us</a>
                                         </li>
                                         <li>
-<!--CONTACT US LINK-->                        <a class="link" href="contact">Contact Us</a>                                         
+<!--CONTACT US LINK-->                        <a class="link" href="<?=ROOT?>contact">Contact Us</a>                                         
                                         </li>
                                         <li>
-<!--SHOP LINK-->                         <a href="shop">shop</a>
+<!--SHOP LINK-->                         <a href="<?=ROOT?>shop">shop</a>
                                         </li>
                                         <li>
-<!--LOG IN LINK-->                            <a href="login">Log In</a>
+<!--LOG IN LINK-->                            <a href="<?=ROOT?>login">Log In</a>
                                         </li>
                                         <li>
-<!--REGISTER LINK-->                          <a href="register">Register</a>
+<!--REGISTER LINK-->                          <a href="<?=ROOT?>register">Register</a>
                                         </li>
                                     </ul>
                                 </nav>

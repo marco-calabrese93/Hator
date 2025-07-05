@@ -31,11 +31,11 @@
                                     </div>
                                 </div>
                                 <div class="login-details text-center mb-25">
-                                    <a href="forgotpassword">Forgot your password? </a>
+                                    <a href="<?=ROOT?>forgotpassword">Forgot your password? </a>
                                     <button type="submit" class="login-btn">Log in</button>
                                 </div>
                                 <div class="login-footer text-center">
-                                    <p>No account? <a href="register">Create one here</a></p>
+                                    <p>No account? <a href="<?=ROOT?>register">Create one here</a></p>
                                 </div>
                             </form>
                         </div>

@@ -17,7 +17,7 @@
                     <div class="offset-xl-1 col-xl-10">
                         <div class="register-form login-form clearfix">
                             <form action="#">
-                                <p>Already have an account? <a href="login">Log in instead!</a></p>
+                                <p>Already have an account? <a href="<?=ROOT?>login">Log in instead!</a></p>
                                 <div class="form-group row align-items-center">
                                     <label class="col-lg-3 col-md-3 col-form-label">Social title</label>
                                     <div class="col-lg-6 col-md-6">
