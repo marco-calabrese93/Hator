@@ -132,7 +132,7 @@
                         </div>
                         <!-- Single Banner Start -->
                         <div class="sidebar-banner mt-30">
-                            <a href="shop"><img class="ful" src="<?=ASSETS?>hator/img/banner/others/1.webp" alt="slider-banner"></a>
+                            <a href="<?=ROOT?>shop"><img class="ful" src="<?=ASSETS?>hator/img/banner/others/1.webp" alt="slider-banner"></a>
                         </div>
                     </div>
                     <!-- Sidebar Shopping Option End -->
@@ -173,7 +173,7 @@
                                             <!-- Single Product Start Here -->
                                             <div class="single-makal-product">
                                                 <div class="pro-img">
-                                                    <a href="product-details.html">
+                                                    <a href="productdetails">
                                                         <img src="<?=ASSETS?>hator/img/products/cosmetic/1.webp" alt="product-img">
                                                     </a>
                                                     <span class="sticker-new">new</span>
