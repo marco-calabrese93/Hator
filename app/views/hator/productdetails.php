@@ -364,7 +364,7 @@
             </div>
         </div>
         <!-- New Arrival Products End Here -->
-
+ <!-- Quick View Content Start |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
           <!-- Quick View Content Start -->
         <div class="main-product-thumbnail quick-thumb-content">
             <div class="container">
@@ -385,19 +385,19 @@
                                         <!-- Thumbnail Large Image start -->
                                         <div class="tab-content">
                                             <div class="tab-pane fade show active" id="pro-1" role="tabpanel" aria-labelledby="pro-1-tab">
-                                                <a data-fancybox="images" href="img/products/cosmetic/1.webp"><img src="img/products/cosmetic/1.webp"
+                                                <a data-fancybox="images" href="<?=ASSETS?>hator/img/products/cosmetic/1.webp"><img src="<?=ASSETS?>hator/img/products/cosmetic/1.webp"
                                                         alt="product-view"></a>
                                             </div>
                                             <div class="tab-pane fade" id="pro-2" role="tabpanel" aria-labelledby="pro-2-tab">
-                                                <a data-fancybox="images" href="img/products/cosmetic/2.webp"><img src="img/products/cosmetic/2.webp"
+                                                <a data-fancybox="images" href="<?=ASSETS?>hator/img/products/cosmetic/2.webp"><img src="<?=ASSETS?>hator/img/products/cosmetic/2.webp"
                                                         alt="product-view"></a>
                                             </div>
                                             <div class="tab-pane fade" id="pro-3" role="tabpanel" aria-labelledby="pro-3-tab">
-                                                <a data-fancybox="images" href="img/products/cosmetic/3.webp"><img src="img/products/cosmetic/3.webp"
+                                                <a data-fancybox="images" href="<?=ASSETS?>hator/img/products/cosmetic/3.webp"><img src="<?=ASSETS?>hator/img/products/cosmetic/3.webp"
                                                         alt="product-view"></a>
                                             </div>
                                             <div class="tab-pane fade" id="pro-4" role="tabpanel" aria-labelledby="pro-4-tab">
-                                                <a data-fancybox="images" href="img/products/cosmetic/4.webp"><img src="img/products/cosmetic/4.webp"
+                                                <a data-fancybox="images" href="<?=ASSETS?>hator/img/products/cosmetic/4.webp"><img src="<?=ASSETS?>hator/img/products/cosmetic/4.webp"
                                                         alt="product-view"></a>
                                             </div>
                                         </div>
@@ -408,25 +408,25 @@
                                                 <li class="nav-item" role="presentation">
                                                     <button class="nav-link active" id="pro-1-tab" data-bs-toggle="tab" data-bs-target="#pro-1" type="button"
                                                         role="tab" aria-controls="pro-1" aria-selected="true">
-                                                        <img src="img/products/cosmetic/1.webp" alt="product-thumbnail">
+                                                        <img src="<?=ASSETS?>hator/img/products/cosmetic/1.webp" alt="product-thumbnail">
                                                     </button>
                                                 </li>
                                                 <li class="nav-item" role="presentation">
                                                     <button class="nav-link" id="pro-2-tab" data-bs-toggle="tab" data-bs-target="#pro-2" type="button"
                                                         role="tab" aria-controls="pro-2" aria-selected="false">
-                                                        <img src="img/products/cosmetic/2.webp" alt="product-thumbnail">
+                                                        <img src="<?=ASSETS?>hator/img/products/cosmetic/2.webp" alt="product-thumbnail">
                                                     </button>
                                                 </li>
                                                 <li class="nav-item" role="presentation">
                                                     <button class="nav-link" id="pro-3-tab" data-bs-toggle="tab" data-bs-target="#pro-3" type="button"
                                                         role="tab" aria-controls="pro-3" aria-selected="false">
-                                                        <img src="img/products/cosmetic/3.webp" alt="product-thumbnail">
+                                                        <img src="<?=ASSETS?>hator/img/products/cosmetic/3.webp" alt="product-thumbnail">
                                                     </button>
                                                 </li>
                                                 <li class="nav-item" role="presentation">
                                                     <button class="nav-link" id="pro-4-tab" data-bs-toggle="tab" data-bs-target="#pro-4" type="button"
                                                         role="tab" aria-controls="pro-4" aria-selected="false">
-                                                        <img src="img/products/cosmetic/4.webp" alt="product-thumbnail">
+                                                        <img src="<?=ASSETS?>hator/img/products/cosmetic/4.webp" alt="product-thumbnail">
                                                     </button>
                                                 </li>
                                             </ul>
@@ -438,21 +438,7 @@
                                     <div class="col-lg-7 col-md-6">
                                         <div class="thubnail-desc fix">
                                             <h3 class="product-header">New Look eye Material</h3>
-                                            <ul class="rating-summary">
-                                                <li class="rating-pro">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star-o"></i>
-                                                    <i class="fa fa-star-o"></i>
-                                                    <i class="fa fa-star-o"></i>
-                                                </li>
-                                                <li class="read-review">
-                                                    <a href="#">read reviews (1)</a>
-                                                </li>
-                                                <li class="write-review">
-                                                    <a href="#">write review</a>
-                                                </li>
-                                            </ul>
+                                            
                                             <div class="pro-thumb-price mt-10">
                                                 <p class="d-flex align-items-center">
                                                     <span class="prev-price">16.51</span>
@@ -467,31 +453,18 @@
                                             <div class="product-size mtb-30 clearfix">
                                                 <label>Size</label>
                                                 <select class="">
-                                                    <option>S</option>
-                                                    <option>M</option>
-                                                    <option>L</option>
+                                                    <option>50 ML</option>
+                                                    <option>100 ML</option>
+                                                    <option>200 ML</option>
                                                 </select>
                                             </div>
-                                            <div class="color clearfix mb-30">
-                                                <label>color</label>
-                                                <ul class="color-list">
-                                                    <li>
-                                                        <a class="white" href="#"></a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="orange active" href="#"></a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="paste" href="#"></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            
                                             <div class="quatity-stock">
                                                 <label>Quantity</label>
                                                 <ul class="d-flex flex-wrap  align-items-center">
                                                     <li class="box-quantity">
                                                         <form action="#">
-                                                            <input class="quantity" type="number" min="1" value="1" min="1">
+                                                            <input class="quantity" type="number" min="1" value="1" >
                                                         </form>
                                                     </li>
                                                     <li>
@@ -505,33 +478,7 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <div class="social-sharing mt-30">
-                                                <ul>
-                                                    <li>
-                                                        <label>share</label>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <i class="fa fa-google-plus" aria-hidden="true"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <i class="fa fa-pinterest-p" aria-hidden="true"></i>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                     <!-- Thumbnail Description End -->
