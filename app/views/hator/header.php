@@ -307,7 +307,7 @@
                                                             </li>
                                                         </ul>
                                                         <div class="cart-actions text-center">
-                                                            <a class="cart-checkout" href="checkout.html">Checkout</a>
+                                                            <a class="cart-checkout" href="<?=ROOT?>checkout">Checkout</a>
                                                         </div>
                                                     </div>
                                                     <!-- Cart Footer Inner End -->
