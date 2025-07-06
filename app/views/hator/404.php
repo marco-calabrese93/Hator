@@ -1,3 +1,4 @@
+<?php if (!isset($page_title)) { $page_title = "404 Not Found | " . (defined('WEBSITE_NAME') ? WEBSITE_NAME : 'Hator'); } ?>
 <?php require "../app/views/hator/header.php"; ?>
 <!-- ci va il require perchè se finisci qui non c'è nessun this, perchè 
  non stai usando il controller , ma sei nella classe App che non ha il metodo view, 
@@ -7,7 +8,7 @@
         <div class="breadcrumb-area">
             <div class="container">
                 <ol class="breadcrumb breadcrumb-list">
-                    <li class="breadcrumb-item"><a href="home">Home</a></li>
+                    <li class="breadcrumb-item"><a href="<?=ROOT?>home">Home</a></li>
                     <li class="breadcrumb-item active">404</li>
                 </ol>
             </div>

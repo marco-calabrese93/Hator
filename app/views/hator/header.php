@@ -4,7 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title><?=$data['page_title'] . " | " . WEBSITE_NAME?></title>
+    <title>
+      <?php
+        if (isset($page_title)) {
+            $websiteName = defined('WEBSITE_NAME') ? WEBSITE_NAME : '';
+            echo (strpos($page_title, $websiteName) === false) ? $page_title . " | " . $websiteName : $page_title;
+        } else {
+            echo 'Titolo di Default';
+        }
+      ?>
+    </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     
@@ -173,7 +182,7 @@
                             <div class="col-xl-3 col-lg-2 col-6">
                                 <div class="logo">
                                     <a href="<?=ASSETS?>hator/index-cosmetic.html">
-                                        <img src="<?=ASSETS?>hator/img/logo/logo.webp" alt="logo-image">
+                                        <img src="<?=ASSETS?>hator/img/logo/logo.jpg" alt="logo-image">
                                     </a>
                                 </div>
                             </div>

@@ -16,7 +16,8 @@ class App {
             unset($url[0]);
         }else{
             // If the controller file does not exist, show a 404 error
-            require "../app/views/404.php";
+            
+            require "../app/views/hator/404.php";
             die();
         }
         require "../app/controllers/".$this->controller.".php";
