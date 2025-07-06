@@ -6,8 +6,10 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title><?=$data['page_title'] . " | " . WEBSITE_NAME?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
     <!-- Favicons -->
-    <link rel="shortcut icon" href="<?=ASSETS?>hator/img/favicon.ico">
+    <link rel="shortcut icon" href="<?=ASSETS?>hator/img/logo.png">
     <!-- Fontawesome css -->
     <link rel="stylesheet" href="<?=ASSETS?>hator/css/font-awesome.min.css">
     <!-- Animate css -->
