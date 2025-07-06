@@ -78,6 +78,7 @@
             </div>
         </div>
          Newsletter Popup End -->
+
         <!-- Main Header Area Start Here -->
 
         <!-- Main Header Area Three Start Here -->
@@ -125,12 +126,12 @@
                                         </ul>
                                         <!-- Dropdown End -->
                                     </li>
-                                    <li>
+                                    <!--<li>
                                         <a href="#">
                                             <img src="<?=ASSETS?>hator/img/header/2.png" alt="language-selector">Italiano
                                             <i class="fa fa-angle-down"></i>
                                         </a>
-                                        <!-- Dropdown Start -->
+                                         Dropdown Start 
                                         <ul class="ht-dropdown">
                                             <li>
                                                 <a href="#">
@@ -141,26 +142,25 @@
                                                     <img src="<?=ASSETS?>hator/img/header/2.png" alt="language-selector">Italiano</a>
                                             </li>
                                         </ul>
-                                        <!-- Dropdown End -->
+                                         Dropdown End -->
+                                    <?php if(!isset($_SESSION['user_id'])): ?>
+                                    <!--se non è loggato non ha i settings -->
+                                    <?php else: ?>
                                     </li>
                                     <li>
-                                        <a href="#">Setting
+                                        <a href="#">Settings
                                             <i class="fa fa-angle-down"></i>
                                         </a>
                                         <!-- Dropdown Start -->
                                         <ul class="ht-dropdown">
-                                            <li>
-                                                <a href="<?=ASSETS?>hator/compare.html">compare products</a>
-                                            </li>
-                                            <li>
+                                             <li>
                                                 <a href="<?=ASSETS?>hator/account.html">my account</a>
                                             </li>
                                             <li>
                                                 <a href="<?=ASSETS?>hator/wishlist.html">my wishlist</a>
                                             </li>
-                                            <li>
-                                                <a href="<?=ASSETS?>hator/login.html">sign in</a>
-                                            </li>
+                                            
+                                            <?php endif; ?>
                                         </ul>
                                         <!-- Dropdown End -->
                                     </li>
@@ -180,9 +180,9 @@
                         <div class="row align-items-center">
                             <!-- Logo Start -->
                             <div class="col-xl-3 col-lg-2 col-6">
-                                <div class="logo">
-                                    <a href="<?=ASSETS?>hator/index-cosmetic.html">
-                                        <img src="<?=ASSETS?>hator/img/logo/logo.jpg" alt="logo-image">
+                                <div class="logo" style="display: flex; justify-content: flex-start; align-items: center;">
+                                    <a href="<?=ROOT?>home">
+                                        <img src="<?=ASSETS?>hator/img/logo/logo-h.jpg" alt="logo-image" style="max-width: 100%; height: auto;">
                                     </a>
                                 </div>
                             </div>

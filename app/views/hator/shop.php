@@ -32,19 +32,23 @@
                                 <ul class="sidbar-style">
                                     <li class="form-check">
                                         <input class="form-check-input" value="#" id="camera" type="checkbox">
-                                        <label class="form-check-label" for="camera">Cameras (8)</label>
+                                        <label class="form-check-label" for="camera">Women</label>
                                     </li>
                                     <li class="form-check">
                                         <input class="form-check-input" value="#" id="GamePad" type="checkbox">
-                                        <label class="form-check-label" for="GamePad">GamePad (8)</label>
+                                        <label class="form-check-label" for="GamePad">Men</label>
                                     </li>
                                     <li class="form-check">
                                         <input class="form-check-input" value="#" id="Digital" type="checkbox">
-                                        <label class="form-check-label" for="Digital">Digital Cameras (8)</label>
+                                        <label class="form-check-label" for="Digital">Unisex</label>
                                     </li>
                                     <li class="form-check">
                                         <input class="form-check-input" value="#" id="Virtual" type="checkbox">
-                                        <label class="form-check-label" for="Virtual"> Virtual Reality (8) </label>
+                                        <label class="form-check-label" for="Virtual">New Arrivals</label>
+                                    </li>
+                                     <li class="form-check">
+                                        <input class="form-check-input" value="#" id="Virtual" type="checkbox">
+                                        <label class="form-check-label" for="Virtual">Best Sellers</label>
                                     </li>
                                 </ul>
                             </div>
@@ -55,103 +59,72 @@
                                 <ul class="size-list sidbar-style">
                                     <li class="form-check">
                                         <input class="form-check-input" value="" id="small" type="checkbox">
-                                        <label class="form-check-label" for="small">S (6)</label>
+                                        <label class="form-check-label" for="small">50 mL</label>
                                     </li>
                                     <li class="form-check">
                                         <input class="form-check-input" value="" id="medium" type="checkbox">
-                                        <label class="form-check-label" for="medium">M (9)</label>
+                                        <label class="form-check-label" for="medium">100 mL</label>
                                     </li>
                                     <li class="form-check">
                                         <input class="form-check-input" value="" id="large" type="checkbox">
-                                        <label class="form-check-label" for="large">L (8)</label>
-                                    </li>
+                                        <label class="form-check-label" for="large">200 mL</label>
                                 </ul>
                             </div>
                             <!-- Product Size End -->
                             <!-- Product Color Start -->
                             <div class="color mb-30">
-                                <h3 class="sidebar-title">color</h3>
+                                <h3 class="sidebar-title">Type</h3>
                                 <ul class="color-option sidbar-style">
-                                    <li>
-                                        <span class="white"></span>
-                                        <a href="#">white (4)</a>
+                                    <li class="form-check" >
+                                        <input class="form-check-input" value="" id="eau_parfum" type="checkbox">
+                                        <label class="form-check-label" for="eau_parfum">Eau De Parfum</label>
                                     </li>
-                                    <li>
-                                        <span class="orange"></span>
-                                        <a href="#">Orange (2)</a>
+                                    <li class="form-check">
+                                        <input class="form-check-input" value="" id="eau_toilette" type="checkbox">
+                                        <label class="form-check-label" for="eau_toilette">Eau De Toilette</label>
                                     </li>
-                                    <li>
-                                        <span class="blue"></span>
-                                        <a href="#">Blue (6)</a>
+                                    <li class="form-check">
+                                        <input class="form-check-input" value="" id="eau_cologne" type="checkbox">
+                                        <label class="form-check-label" for="eau_cologne">Eau De Cologne</label>
                                     </li>
-                                    <li>
-                                        <span class="yellow"></span>
-                                        <a href="#">Yellow (8)</a>
+                                    <li class="form-check">
+                                        <input class="form-check-input" value="" id="parfum" type="checkbox">
+                                        <label class="form-check-label" for="parfum">Parfum</label>
                                     </li>
                                 </ul>
                             </div>
                             <!-- Product Color End -->
                             <!-- Sidebar Categorie Start -->
                             <div class="sidebar-categorie mb-30">
-                                <h3 class="sidebar-title">Components</h3>
+                                <h3 class="sidebar-title">Olfactory family</h3>
                                 <ul class="sidbar-style">
                                     <li class="form-check">
                                         <input class="form-check-input" value="#" type="checkbox">
-                                        <label class="form-check-label">cotton (4)</label>
+                                        <label class="form-check-label">citrus</label>
                                     </li>
                                     <li class="form-check">
                                         <input class="form-check-input" value="#" type="checkbox">
-                                        <label class="form-check-label">polyester (4)</label>
+                                        <label class="form-check-label">floral</label>
                                     </li>
                                     <li class="form-check">
                                         <input class="form-check-input" value="#" type="checkbox">
-                                        <label class="form-check-label">Viscose (5)</label>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- Sidebar Categorie Start -->
-                            <!-- Sidebar Categorie Start -->
-                            <div class="sidebar-categorie mb-30">
-                                <h3 class="sidebar-title">Styles</h3>
-                                <ul class="sidbar-style">
-                                    <li class="form-check">
-                                        <input class="form-check-input" value="#" type="checkbox">
-                                        <label class="form-check-label">casual (5)</label>
+                                        <label class="form-check-label">woody</label>
                                     </li>
                                     <li class="form-check">
                                         <input class="form-check-input" value="#" type="checkbox">
-                                        <label class="form-check-label">dressy (2)</label>
+                                        <label class="form-check-label">amber</label>
                                     </li>
                                     <li class="form-check">
                                         <input class="form-check-input" value="#" type="checkbox">
-                                        <label class="form-check-label">girly (8)</label>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- Sidebar Categorie Start -->
-                            <!-- Sidebar Categorie Start -->
-                            <div class="sidebar-categorie">
-                                <h3 class="sidebar-title">Properties</h3>
-                                <ul class="sidbar-style">
-                                    <li class="form-check">
-                                        <input class="form-check-input" value="#" type="checkbox">
-                                        <label class="form-check-label">colorful dress (2)</label>
+                                        <label class="form-check-label">leathers</label>
                                     </li>
                                     <li class="form-check">
                                         <input class="form-check-input" value="#" type="checkbox">
-                                        <label class="form-check-label">maxi dress (2)</label>
+                                        <label class="form-check-label">chypre</label>
                                     </li>
-                                    <li class="form-check">
+                                     <li class="form-check">
                                         <input class="form-check-input" value="#" type="checkbox">
-                                        <label class="form-check-label">midi dress (2)</label>
-                                    </li>
-                                    <li class="form-check">
-                                        <input class="form-check-input" value="#" type="checkbox">
-                                        <label class="form-check-label">short dress (4) </label>
-                                    </li>
-                                    <li class="form-check">
-                                        <input class="form-check-input" value="#" type="checkbox">
-                                        <label class="form-check-label">short sleve (3) </label>
+                                        <label class="form-check-label">ferns</label>
                                     </li>
                                 </ul>
                             </div>
@@ -159,7 +132,7 @@
                         </div>
                         <!-- Single Banner Start -->
                         <div class="sidebar-banner mt-30">
-                            <a href="shop.html"><img class="ful" src="img/banner/others/1.webp" alt="slider-banner"></a>
+                            <a href="shop"><img class="ful" src="<?=ASSETS?>hator/img/banner/others/1.webp" alt="slider-banner"></a>
                         </div>
                     </div>
                     <!-- Sidebar Shopping Option End -->
@@ -181,10 +154,10 @@
                                     <label>Sort By:</label>
                                     <select class="sorter wide">
                                         <option value="Position">Relevance</option>
-                                        <option value="Product Name">Neme, A to Z</option>
-                                        <option value="Product Name">Neme, Z to A</option>
-                                        <option value="Price">Price low to heigh</option>
-                                        <option value="Price">Price heigh to low</option>
+                                        <option value="Product Name">Name, A to Z</option>
+                                        <option value="Product Name">Name, Z to A</option>
+                                        <option value="Price">Price low to high</option>
+                                        <option value="Price">Price high to low</option>
                                     </select>
                                 </div>
                             </div>
