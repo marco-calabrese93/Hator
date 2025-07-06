@@ -21,7 +21,7 @@ define('ASSETS', str_replace("app/core", "public/assets", $path));
 
 
 
-// ***** DURANTE LE FASI DI SVILUPPO LO LASCIAMO A TRU MA QUANDO
+// ***** DURANTE LE FASI DI SVILUPPO LO LASCIAMO A TRUE MA QUANDO
 // IL SITO SARÀ PRONTO VA IMPOSTATO A FALSE ***** 
 define("DEBUG", true);
 
