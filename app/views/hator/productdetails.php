@@ -273,15 +273,7 @@
                                 <div class="actions-primary">
                                     <a href="<?=ROOT?>cart" class="add-to-cart" data-toggle="tooltip" data-original-title="Add to Cart">Add To Cart</a>
                                 </div>
-                                <div class="actions-secondary">
-                                    <div class="rating">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
