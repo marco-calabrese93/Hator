@@ -322,6 +322,20 @@
     <script src="<?=ASSETS?>hator/js/plugins.js"></script>
     <!-- Main activaion js -->
     <script src="<?=ASSETS?>hator/js/main.js"></script>
+    
+
+
+    <!-- Fix Select2 visibility -->
+    <style>
+        select.select2-hidden-accessible {
+            display: none !important;
+            visibility: hidden !important;
+            height: 0 !important;
+            width: 0 !important;
+            position: absolute !important;
+        }
+    </style>
+
 </body>
 
 </html>

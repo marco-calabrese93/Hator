@@ -701,6 +701,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
     29. Nice Select Activation
     ------------------------------ */
     $('select').niceSelect();
+    
 
     /*----------------------------
     30. Price Slider Activation

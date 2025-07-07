@@ -11,8 +11,7 @@
         </div>
         <!-- Breadcrumb Area End Here -->
         <!-- coupon-area start -->
-        <div class="coupon-area white-bg pt-90 pb-30">
-            <div class="container">
+        <div class="coupon-area container white-bg pt-50 pb-30">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="coupon-accordion">
@@ -20,7 +19,7 @@
                             <h3>Returning customer? <span id="showlogin">Click here to login</span></h3>
                             <div id="checkout-login" class="coupon-content">
                                 <div class="coupon-info">
-                                    <p class="coupon-text">Quisque gravida turpis sit amet nulla posuere lacinia. Cras
+                                   <!--<p class="coupon-text">Quisque gravida turpis sit amet nulla posuere lacinia. Cras
                                         sed est sit amet ipsum luctus.</p>
                                     <form action="#">
                                         <p class="form-row-first">
@@ -41,7 +40,39 @@
                                         <p class="lost-password">
                                             <a href="#">Lost your password?</a>
                                         </p>
-                                    </form>
+                                    </form> -->
+                                <div class="col-xl-6 col-lg-8 offset-xl-3 offset-lg-2">
+                                    <div class="login-form" >
+                                        <form method="POST">
+                                            <div class="form-group row mb-20" >
+                                                <label for="email" class="col-sm-3 col-form-label">Email
+                                                    <span class="required" style="color: red;">*</span>
+                                                </label>
+                                                <div class="col-sm-7">
+                                                    <input type="email" class="form-control <?= (!empty($_POST) && empty($_POST['email'])) ? 'is-invalid' : '' ?>" id="email" name="email" placeholder="Email" value="<?= htmlspecialchars($_POST['email'] ?? '') ?>">
+                                                    <div class="invalid-feedback">Mandatory field</div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mb-20">
+                                                <label for="inputPassword" class="col-sm-3 col-form-label">Password
+                                                    <span class="required" style="color: red;">*</span>
+                                                </label>
+                                                <div class="col-sm-7 position-relative">
+                                                    <input type="password" class="form-control <?= (!empty($_POST) && empty($_POST['password'])) ? 'is-invalid' : '' ?>" id="inputPassword" name="password" placeholder="Password">
+                                                    <div class="invalid-feedback">Mandatory field</div>
+                                                    <button class="btn show-btn" type="button" data-target="inputPassword">Show</button>
+                                                </div>
+                                            </div>
+                                            <div class="login-details text-center mb-25">
+                                                <a href="<?=ROOT?>forgotpassword">Forgot your password? </a>
+                                                <button type="submit" class="login-btn">Log in</button>
+                                            </div>
+                                            <div class="login-footer text-center">
+                                                <p>No account? <a href="<?=ROOT?>register">Create one here</a></p>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
                                 </div>
                             </div>
                             <!-- Accordion End -->
@@ -75,15 +106,14 @@
                                 <div class="col-md-12">
                                     <div class="country-select clearfix mb-30">
                                         <label>Country <span class="required">*</span></label>
-                                        <select class="wide">
-                                            <option value="volvo">Bangladesh</option>
-                                            <option value="saab">Algeria</option>
-                                            <option value="mercedes">Afghanistan</option>
-                                            <option value="audi">Ghana</option>
-                                            <option value="audi2">Albania</option>
-                                            <option value="audi3">Bahrain</option>
-                                            <option value="audi4">Colombia</option>
-                                            <option value="audi5">Dominican Republic</option>
+                                        <select class="wide" >
+                                            <option value="italy">Italy</option>
+                                            <option value="united-states">United States</option>
+                                            <option value="united-kingdom">United Kingdom</option>
+                                            <option value="germany">Germany</option>
+                                            <option value="france">France</option>
+                                            <option value="spain">Spain</option>
+                                            
                                         </select>
                                     </div>
                                 </div>
@@ -172,14 +202,13 @@
                                             <div class="country-select clearfix mb-30">
                                                 <label>Country <span class="required">*</span></label>
                                                 <select class="wide">
-                                                    <option value="volvo">Bangladesh</option>
-                                                    <option value="saab">Algeria</option>
-                                                    <option value="mercedes">Afghanistan</option>
-                                                    <option value="audi">Ghana</option>
-                                                    <option value="audi2">Albania</option>
-                                                    <option value="audi3">Bahrain</option>
-                                                    <option value="audi4">Colombia</option>
-                                                    <option value="audi5">Dominican Republic</option>
+                                                    <option value="italy">Italy</option>
+                                                    <option value="united-states">United States</option>
+                                                    <option value="united-kingdom">United Kingdom</option>
+                                                    <option value="germany">Germany</option>
+                                                    <option value="france">France</option>
+                                                    <option value="spain">Spain</option>
+                                                
                                                 </select>
                                             </div>
                                         </div>
@@ -253,6 +282,7 @@
                             </div>
                         </div>
                     </div>
+                    
                     <div class="col-lg-6 col-md-6">
                         <div class="your-order">
                             <h3>Your order</h3>
@@ -295,6 +325,7 @@
                                     </tfoot>
                                 </table>
                             </div>
+                            
                             <div class="payment-method">
                                 <div id="accordion">
                                     <div class="card">
@@ -350,6 +381,15 @@
                     </div>
                 </div>
             </div>
+            <div  class="login-details text-center mb-25" style="padding-left: 130px; padding-top:30px;"> 
+            <!-- bottone con dim in pixel checkout quadrato 
+             <button style="float: left; width: 578px;" type="submit" class="login-btn">Checkout</button> -->
+             <button style="float: left; width: 44%;" type="submit" class="login-btn">Checkout</button>
+             <!-- bottone con dim in pixel checkout tondo 
+             <div style="text-align:center; float: left; width: 44%;" type="submit"><button style="width:100%" class="pro-cart">Checkout</button></div>-->
+            </div>
         </div>
+       <!-- <div style="text-align:center"><button style="width:200px" class="pro-cart">add to cart</button></div> -->
+       
         <!-- checkout-area end -->
 <?php $this->view("hator/footer",$data);?>

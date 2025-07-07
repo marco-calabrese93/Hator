@@ -44,8 +44,12 @@
     <!-- Responsive css -->
     <link rel="stylesheet" href="<?=ASSETS?>hator/css/responsive.css">
 
+    <!-- Select2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
     <!-- Modernizer js -->
     <script src="<?=ASSETS?>hator/js/vendor/modernizr-3.5.0.min.js"></script>
+   
 </head>
 
 <body class="template-color-1">

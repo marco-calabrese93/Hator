@@ -21,17 +21,21 @@
                         <div class="login-form">
                             <form method="POST">
                                 <div class="form-group row mb-20">
-                                    <label for="email" class="col-sm-3 col-form-label">Email</label>
+                                    <label for="email" class="col-sm-3 col-form-label">Email
+                                        <span class="required" style="color: red;">*</span>
+                                    </label>
                                     <div class="col-sm-7">
                                         <input type="email" class="form-control <?= (!empty($_POST) && empty($_POST['email'])) ? 'is-invalid' : '' ?>" id="email" name="email" placeholder="Email" value="<?= htmlspecialchars($_POST['email'] ?? '') ?>">
-                                        <div class="invalid-feedback">Campo obbligatorio</div>
+                                        <div class="invalid-feedback">Mandatory field</div>
                                     </div>
                                 </div>
                                 <div class="form-group row mb-20">
-                                    <label for="inputPassword" class="col-sm-3 col-form-label">Password</label>
+                                    <label for="inputPassword" class="col-sm-3 col-form-label">Password
+                                        <span class="required" style="color: red;">*</span>
+                                    </label>
                                     <div class="col-sm-7 position-relative">
                                         <input type="password" class="form-control <?= (!empty($_POST) && empty($_POST['password'])) ? 'is-invalid' : '' ?>" id="inputPassword" name="password" placeholder="Password">
-                                        <div class="invalid-feedback">Campo obbligatorio</div>
+                                        <div class="invalid-feedback">Mandatory field</div>
                                         <button class="btn show-btn" type="button" data-target="inputPassword">Show</button>
                                     </div>
                                 </div>
